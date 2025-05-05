@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="/js_115_maxymus101/assets/favicon-DwtBU8jO.svg" type="image/svg+xml" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script type="module" crossorigin src="/js_115_maxymus101/index.js"></script>
+  <link rel="modulepreload" crossorigin href="/js_115_maxymus101/assets/vendor-CDeUoYlz.js">
+  <link rel="stylesheet" crossorigin href="/js_115_maxymus101/assets/vendor-DGNC3SS-.css">
+  <link rel="stylesheet" crossorigin href="/js_115_maxymus101/assets/index-h6dBKppx.css">
+</head>
+
+<body>
+  <header>
+  <div class="container hdr-container">
+    <nav class="header-navigation">
+      <a class="company-logo" href="./index.html"
+        >Lloyd<span class="logo-accent">Jefferson.</span></a
+      >
+      <div class="nav-right">
+        <button type="button" id="toggle-background" class="toggle-background">
+          <svg class="toggle-icon-white">
+            <use
+              href="/js_115_maxymus101/assets/icons-Cd6RWSuI.svg#icon-change-to-light"
+              width="48"
+              height="24"
+            ></use>
+          </svg>
+          <svg class="toggle-icon-black is-hidden">
+            <use
+              href="/js_115_maxymus101/assets/icons-Cd6RWSuI.svg#icon-change-to-dark"
+              width="48"
+              height="24"
+            ></use>
+          </svg>
+        </button>
+        <ul class="hdr-nav-menu">
+          <li class="hdr-nav-menu-item">
+            <a href="#about-me" class="nav-menu-item-link">About me</a>
+          </li>
+          <li class="hdr-nav-menu-item">
+            <a href="#my-projects" class="nav-menu-item-link">Projects</a>
+          </li>
+          <li class="hdr-nav-menu-item">
+            <a href="#work-together-footer" class="nav-menu-item-link"
+              >Contacts</a
+            >
+          </li>
+        </ul>
+        <a class="dark-order-btn" href="#work-together-footer"
+          >Order the project</a
+        >
+      </div>
+    </nav>
+    <button type="button" id="mobile-burger-menu" class="mobile-burger-manu">
+      <svg class="mobile-burger-menu-icon">
+        <use href="/js_115_maxymus101/assets/icons-Cd6RWSuI.svg#burger-menu" width="22" height="16"></use>
+      </svg>
+    </button>
+  </div>
+</header>
+<section class="hero" id="hero">
+  <div class="container hero-container">
+    <div class="background-image-mobile"></div>
+    <div class="background-image-tablet"></div>
+    <div class="background-image-desktop"></div>
+    <div class="title-img-wraper">
+      <h1 class="hero-title">
+        Hello, I am <br /><span class="hero-title-accent"
+          >Fullstack<br />
+          developer</span
+        >
+      </h1>
+      <div class="hero-img-wraper">
+        <picture class="hero-picture hero-picture-light" id="hero-picture">
+          <source
+            id="hero-source"
+            srcset="/js_115_maxymus101/assets/imghero-picture@1x-COAz-BeJ.jpg 1x, /js_115_maxymus101/assets/imghero-picture@2x-Ctmfac-M.jpg 2x"
+          />
+          <img
+            id="hero-img"
+            src="/js_115_maxymus101/assets/imghero-picture@2x-Ctmfac-M.jpg"
+            alt="portrait-with-laptop"
+            class="hero-image"
+          />
+        </picture>
+        <picture class="hero-picture hero-picture-dark">
+          <!-- Desktop only -->
+          <source
+            srcset="/js_115_maxymus101/assets/imgdark-bg-hero-desktop@1x-B9ymecrm.webp 1x, /js_115_maxymus101/assets/imgdark-bg-hero-desktop@2x-BIrPiAqc.webp 2x"
+            media="(min-width: 1280px)"
+            type="image/webp"
+          />
+          <!-- Tablet only (between 768px and 1279px) -->
+          <source
+            srcset="/js_115_maxymus101/assets/imgdark-bg-hero-tablet@1x-Ct_b8X4i.webp 1x, /js_115_maxymus101/assets/imgdark-bg-hero-tablet@2x-C75DbBOL.webp 2x"
+            media="(min-width: 768px) and (max-width: 1279.9px)"
+            type="image/webp"
+          />
+          <!-- Fallback (mobile or unsupported browser) -->
+          <img
+            src="/js_115_maxymus101/assets/imgdark-bg-hero-mobile@1x-DmEwr_hp.webp"
+            srcset="/js_115_maxymus101/assets/imgdark-bg-hero-mobile@2x-CL0Kr0LZ.webp 2x"
+            alt="Dark mode hero"
+            class="hero-img"
+          />
+        </picture>
+      </div>
+    </div>
+    <div class="hero-dark-reverse-wraper">
+      <div class="refferral-wrapper">
+        <div class="projects-refferal">
+          <a class="arrow-link" href="#work-together-footer">
+            <svg class="arrow-icon" width="30" height="16">
+              <use href="/js_115_maxymus101/assets/icons-Cd6RWSuI.svg#green-arrow"></use>
+            </svg>
+            <div class="rectangle-wraper">
+              <span class="projects-refferal-link">Order the project</span>
+              <div class="refferal-rectangle"></div>
+            </div>
+            <div class="spacer"></div>
+          </a>
+        </div>
+        <p class="hero-text">
+          I work with people all over the world to create
+          <span class="accent-hero-text">impressive</span> and
+          <span class="accent-hero-text">functional websites</span> that reflect
+          each client’s unique personality.
+        </p>
+      </div>
+      <nav class="hero-menu">
+        <ul class="social-menu">
+          <li>
+            <a
+              class="social-menu-item"
+              href="https://www.instagram.com/goitclub/"
+              target="_blank"
+              >Instagram</a
+            >
+          </li>
+          <li>
+            <a
+              class="social-menu-item"
+              href="https://www.facebook.com/goITclub/"
+              target="_blank"
+              >Facebook</a
+            >
+          </li>
+          <li>
+            <a
+              class="social-menu-item"
+              href="https://www.linkedin.com/school/goit-start-your-career-in-it "
+              target="_blank"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a
+              class="social-menu-item"
+              href="https://github.com/maxymus101/JS-team-project-g14/tree/main/src/css"
+              target="_blank"
+              >GitHub</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</section>
+<!-- #regin Mobile menu -->
+<div class="mobile-menu" id="mobile-menu">
+  <div class="container container-mobile-menu">
+    <div class="mobile-menu-header">
+      <a class="company-logo" href="/index.html"
+        >Lloyd<span class="logo-accent">Jefferson.</span></a
+      >
+      <button class="modal-close-btn" type="button">
+        <svg class="modal-close-icon" width="32" height="32">
+          <use href="/js_115_maxymus101/assets/icons-Cd6RWSuI.svg#icon-close"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="mobile-main-manu">
+      <div class="mobile-menu-background"></div>
+      <ul class="mobil-menu-list">
+        <li class="list-item">
+          <a class="nav-link studio" href="#about-me">About me</a>
+        </li>
+        <li class="list-item">
+          <a class="nav-link" href="#my-projects">Projects</a>
+        </li>
+        <li class="list-item">
+          <a class="nav-link" href="#work-together-footer">Contacts</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+    <main>
+      <!-- Loads the specified .html file -->
+      <section class="container about-me" id="about-me">
+  <h1 class="about-me-title">About <span class="about-me-span">me</span></h1>
+  <div class="item-container">
+    <div class="bio-img-container">
+      <div class="content-image-container">
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="/js_115_maxymus101/assets/img-desctop@1x-VUOSWVLn.webp 1x, /js_115_maxymus101/assets/img-desctop@2x-B3pF4ufN.webp 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/js_115_maxymus101/assets/img-tablet@1x-C8vLWFaE.webp 1x, /js_115_maxymus101/assets/img-tablet@2x-CPBpuHKi.webp 2x"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="/js_115_maxymus101/assets/img-mobile@1x-RPWVA0h5.webp 1x, /js_115_maxymus101/assets/img-mobile@2x-CJkkxTdC.webp 2x"
+          />
+          <img
+            class="content-img"
+            src="/js_115_maxymus101/assets/img-desctop@1x-VUOSWVLn.webp"
+            alt="Lloyd Jefferson"
+          />
+        </picture>
+      </div>
+      <div class="bio-container">
+        <h2 class="bio-title">BIO</h2>
+        <div class="bio-item-cont">
+          <p class="bio-item-cont1">
+            I'm Lloyd Jefferson, a talented programmer specializing in software
+            development. My expertise spans various programming languages and
+            technologies, and I am dedicated to continually enhancing my skills.
+            I thrive on seeking unconventional and creative solutions to
+            problems, leveraging a high level of analytical skills to
+            effectively tackle even the most challenging tasks.
+          </p>
+          <p class="bio-item-cont1">
+            Adaptable to both independent and team-oriented work,I collaborate
+            seamlessly with colleagues, exchanging ideas and finding optimal
+            solutions.My professional maturity enables me to navigate challenges
+            and stressful situations with a calm demeanor, maintaining a
+            consistently high quality of work. Committed to self-improvement,I
+            actively engage in studying new technologies and practices to stay
+            current with the <br />latest innovations in the field.
+          </p>
+        </div>
+        <div class="decor-img">
+          <img src="/js_115_maxymus101/assets/decor-bg-2-BU8qILD6.png" alt="decor-bg-2" />
+        </div>
+      </div>
+    </div>
+    <div class="educ-role-container">
+      <div class="education-continer">
+        <h2 class="education-title">EDUCATION</h2>
+        <ul class="education-list">
+          <li class="education-item">
+            2018 - 2019 / Frontend Development Diploma, GoIT IT School, New York
+          </li>
+          <li class="education-item">
+            2019 - 2020 / Advanced Web Development Certificate, GoIT IT School,
+            New York
+          </li>
+          <li class="education-item">
+            2020 - 2022 / Advanced Blender Animation Techniques, Udemy
+          </li>
+        </ul>
+      </div>
+      <div class="role-container">
+        <h2 class="role-title">ROLE</h2>
+        <ul class="role-list">
+          <li class="role-item">Frontend development</li>
+          <li class="role-item">HeadlessCMS, Wordpress</li>
+          <li class="role-item">Blender (enjoy)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="tech-skills">
+    <h2 class="tech-skills-title">Tech Skills</h2>
+    <div class="tech-skills-green">   
+        <div class="tech-skills-inner-green">
+            <p class="tech-skills-line">
+                <span class="tech-skills-point">•</span>HTML/CSS
+                <span class="tech-skills-point">•</span>JavaScript
+                <span class="tech-skills-point">•</span>React
+                <span class="tech-skills-point">•</span>Node.js
+                <span class="tech-skills-point">•</span>React Native
+                <span class="tech-skills-point">•</span>Typescript
+            </p>
+            <p class="tech-skills-line">
+                <span class="tech-skills-point">•</span>HTML/CSS
+                <span class="tech-skills-point">•</span>JavaScript
+                <span class="tech-skills-point">•</span>React
+                <span class="tech-skills-point">•</span>Node.js
+                <span class="tech-skills-point">•</span>React Native
+                <span class="tech-skills-point">•</span>Typescript
+            </p>
+            <p class="tech-skills-line">
+                <span class="tech-skills-point">•</span>HTML/CSS
+                <span class="tech-skills-point">•</span>JavaScript
+                <span class="tech-skills-point">•</span>React
+                <span class="tech-skills-point">•</span>Node.js
+                <span class="tech-skills-point">•</span>React Native
+                <span class="tech-skills-point">•</span>Typescript
+            </p>
+            <p class="tech-skills-line">
+                <span class="tech-skills-point">•</span>HTML/CSS
+                <span class="tech-skills-point">•</span>JavaScript
+                <span class="tech-skills-point">•</span>React
+                <span class="tech-skills-point">•</span>Node.js
+                <span class="tech-skills-point">•</span>React Native
+                <span class="tech-skills-point">•</span>Typescript
+            </p>
+             <p class="tech-skills-line">
+                <span class="tech-skills-point">•</span>HTML/CSS
+                <span class="tech-skills-point">•</span>JavaScript
+                <span class="tech-skills-point">•</span>React
+                <span class="tech-skills-point">•</span>Node.js
+                <span class="tech-skills-point">•</span>React Native
+                <span class="tech-skills-point">•</span>Typescript
+            </p>
+            <p class="tech-skills-line">
+                <span class="tech-skills-point">•</span>HTML/CSS
+                <span class="tech-skills-point">•</span>JavaScript
+                <span class="tech-skills-point">•</span>React
+                <span class="tech-skills-point">•</span>Node.js
+                <span class="tech-skills-point">•</span>React Native
+                <span class="tech-skills-point">•</span>Typescript
+            </p>   
+            <p class="tech-skills-line">
+                <span class="tech-skills-point">•</span>HTML/CSS
+                <span class="tech-skills-point">•</span>JavaScript
+                <span class="tech-skills-point">•</span>React
+                <span class="tech-skills-point">•</span>Node.js
+                <span class="tech-skills-point">•</span>React Native
+                <span class="tech-skills-point">•</span>Typescript
+            </p>     
+            <p class="tech-skills-line">
+                <span class="tech-skills-point">•</span>HTML/CSS
+                <span class="tech-skills-point">•</span>JavaScript
+                <span class="tech-skills-point">•</span>React
+                <span class="tech-skills-point">•</span>Node.js
+                <span class="tech-skills-point">•</span>React Native
+                <span class="tech-skills-point">•</span>Typescript
+            </p>
+            <p class="tech-skills-line">
+                <span class="tech-skills-point">•</span>HTML/CSS
+                <span class="tech-skills-point">•</span>JavaScript
+                <span class="tech-skills-point">•</span>React
+                <span class="tech-skills-point">•</span>Node.js
+                <span class="tech-skills-point">•</span>React Native
+                <span class="tech-skills-point">•</span>Typescript
+            </p>                       
+        </div>
+    </div>
+    <div class="tech-skills-grey">
+        <div class="tech-skills-inner-grey">
+            <p class="tech-skills-line">
+                <span class="tech-skills-point">•</span>HTML/CSS
+                <span class="tech-skills-point">•</span>JavaScript
+                <span class="tech-skills-point">•</span>React
+                <span class="tech-skills-point">•</span>Node.js
+                <span class="tech-skills-point">•</span>React Native
+                <span class="tech-skills-point">•</span>Typescript
+                </p>
+            <p class="tech-skills-line">
+                <span class="tech-skills-point">•</span>HTML/CSS
+                <span class="tech-skills-point">•</span>JavaScript
+                <span class="tech-skills-point">•</span>React
+                <span class="tech-skills-point">•</span>Node.js
+                <span class="tech-skills-point">•</span>React Native
+                <span class="tech-skills-point">•</span>Typescript
+            </p>
+            <p class="tech-skills-line">
+                <span class="tech-skills-point">•</span>HTML/CSS
+                <span class="tech-skills-point">•</span>JavaScript
+                <span class="tech-skills-point">•</span>React
+                <span class="tech-skills-point">•</span>Node.js
+                <span class="tech-skills-point">•</span>React Native
+                <span class="tech-skills-point">•</span>Typescript
+            </p>
+            <p class="tech-skills-line">
+                <span class="tech-skills-point">•</span>HTML/CSS
+                <span class="tech-skills-point">•</span>JavaScript
+                <span class="tech-skills-point">•</span>React
+                <span class="tech-skills-point">•</span>Node.js
+                <span class="tech-skills-point">•</span>React Native
+                <span class="tech-skills-point">•</span>Typescript
+            </p>     
+            <p class="tech-skills-line">
+                <span class="tech-skills-point">•</span>HTML/CSS
+                <span class="tech-skills-point">•</span>JavaScript
+                <span class="tech-skills-point">•</span>React
+                <span class="tech-skills-point">•</span>Node.js
+                <span class="tech-skills-point">•</span>React Native
+                <span class="tech-skills-point">•</span>Typescript
+            </p>
+            <p class="tech-skills-line">
+                <span class="tech-skills-point">•</span>HTML/CSS
+                <span class="tech-skills-point">•</span>JavaScript
+                <span class="tech-skills-point">•</span>React
+                <span class="tech-skills-point">•</span>Node.js
+                <span class="tech-skills-point">•</span>React Native
+                <span class="tech-skills-point">•</span>Typescript
+            </p>     
+            <p class="tech-skills-line">
+                <span class="tech-skills-point">•</span>HTML/CSS
+                <span class="tech-skills-point">•</span>JavaScript
+                <span class="tech-skills-point">•</span>React
+                <span class="tech-skills-point">•</span>Node.js
+                <span class="tech-skills-point">•</span>React Native
+                <span class="tech-skills-point">•</span>Typescript
+            </p>     
+            <p class="tech-skills-line">
+                <span class="tech-skills-point">•</span>HTML/CSS
+                <span class="tech-skills-point">•</span>JavaScript
+                <span class="tech-skills-point">•</span>React
+                <span class="tech-skills-point">•</span>Node.js
+                <span class="tech-skills-point">•</span>React Native
+                <span class="tech-skills-point">•</span>Typescript
+            </p>
+            <p class="tech-skills-line">
+                <span class="tech-skills-point">•</span>HTML/CSS
+                <span class="tech-skills-point">•</span>JavaScript
+                <span class="tech-skills-point">•</span>React
+                <span class="tech-skills-point">•</span>Node.js
+                <span class="tech-skills-point">•</span>React Native
+                <span class="tech-skills-point">•</span>Typescript
+            </p>                                         
+        </div>
+    </div>
+</section>
+
+
+      <section id="my-projects" class="projects-section container">
+    <h2 class="section-title">
+        MY <span>PROJECTS</span>
+    </h2>
+
+    <ul id="projects-list" class="projects-list"></ul>
+
+    <button id="load-more" class="load-more-btn">Load More</button>
+</section>
+      <section class="benefits" id="benefits">
+  <div class="benefits-div container">
+    <h2 class="benfits-title">
+      <span class="benefits-titele-decor">Benefits</span> of working with me
+    </h2>
+    <div class="benefits-bg-decor">
+      <img src="/js_115_maxymus101/assets/decor-bg-3-DcNUiC18.png" alt="Decoration" />
+    </div>
+    <div class="benefits-wrapper">
+      <ul class="benefits-list">
+        <li class="benefits-item position-change-firstEl">
+          <div class="benefits-icon-wrapper">
+            <svg class="icon" width="24" height="24">
+              <use href="/js_115_maxymus101/assets/icons-Cd6RWSuI.svg#icon-person"></use>
+            </svg>
+          </div>
+          <div class="benefits-content-wrapper">
+            <h3 class="benefits-subtitle">Expertise</h3>
+            <p class="benefits-subtext">
+              With extensive experience in development, I have a deep
+              understanding of programming and website development.
+            </p>
+          </div>
+        </li>
+        <li class="benefits-item">
+          <div class="benefits-icon-wrapper">
+            <svg class="icon" width="24" height="24">
+              <use href="/js_115_maxymus101/assets/icons-Cd6RWSuI.svg#icon-chat"></use>
+            </svg>
+          </div>
+          <div class="benefits-content-wrapper">
+            <h3 class="benefits-subtitle">Communication</h3>
+            <p class="benefits-subtext">
+              Understanding your needs and wants is my priority and I am always
+              available for discussions and open to corrections.
+            </p>
+          </div>
+        </li>
+        <li class="benefits-item">
+          <div class="benefits-icon-wrapper">
+            <svg class="icon" width="24" height="24">
+              <use href="/js_115_maxymus101/assets/icons-Cd6RWSuI.svg#icon-brush"></use>
+            </svg>
+          </div>
+          <div class="benefits-content-wrapper">
+            <h3 class="benefits-subtitle">Art</h3>
+            <p class="benefits-subtext art-subtext">
+              Understanding your needs and wants is my priority and I am always
+              available for discussions and open to corrections.
+            </p>
+          </div>
+        </li>
+        <li class="benefits-item position-change-lastEl">
+          <div class="benefits-icon-wrapper">
+            <svg class="icon icon-decor" width="24" height="24">
+              <use href="/js_115_maxymus101/assets/icons-Cd6RWSuI.svg#icon-time"></use>
+            </svg>
+          </div>
+          <div class="benefits-content-wrapper">
+            <h3 class="benefits-subtitle">Urgent execution</h3>
+            <p class="benefits-subtext">
+              I understand how important time is to you. Ready to work quickly
+              and efficiently, without reducing the quality of work.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="faq-section">
+  <div class="faq-div container">
+    <div class="faq-header">
+      <h2 class="faq-title">
+        Frequently<br />
+        Asked<br />
+        <span class="accent">Question</span>
+      </h2>
+      <img class="decor" src="/js_115_maxymus101/assets/decor-faq-bg-4-Dr3_1pXd.png" alt="decor-bg-4" />
+    </div>
+    <ul class="accordion" data-accordion>
+      <li class="accordion-item open">
+        <div class="accordion-header">
+          <span class="accordion-question"
+            >What programming languages are most often used in your
+            project?</span
+          >
+          <button class="btn-accordion-question">
+            <svg
+              class="icon-button-down"
+              width="32"
+              height="32"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="icon-path"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-width="2"
+                d="m22 13-6 6-6-6"
+              />
+            </svg>
+          </button>
+        </div>
+        <p class="accordion-content">
+          In the field of web development, there are various technologies and
+          programming languages. Typically, this includes a combination of
+          frontend (client side) and backend (server side) languages.
+        </p>
+      </li>
+      <li class="accordion-item close">
+        <div class="accordion-header">
+          <span class="accordion-question"
+            >What are the deadlines for the project?</span
+          >
+          <button class="btn-accordion-question">
+            <svg
+              class="icon-button-down"
+              width="32"
+              height="32"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="icon-path"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-width="2"
+                d="m22 13-6 6-6-6"
+              />
+            </svg>
+          </button>
+        </div>
+        <p class="accordion-content">
+          The terms of project implementation depend to a large extent on a
+          number of factors, such as the scope of the project, its complexity,
+          and the availability of resources.
+        </p>
+      </li>
+
+      <li class="accordion-item close">
+        <div class="accordion-header">
+          <span class="accordion-question"
+            >What payment methods do you accept?</span
+          >
+          <button class="btn-accordion-question">
+            <svg
+              class="icon-button-down"
+              width="32"
+              height="32"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="icon-path"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-width="2"
+                d="m22 13-6 6-6-6"
+              />
+            </svg>
+          </button>
+        </div>
+        <p class="accordion-content">
+          Payment through credit and debit cards such as Visa, MasterCard,
+          specialized electronic payment systems like PayPal, and also
+          cryptocurrencies like Bitcoin, Ethereum, and others.
+        </p>
+      </li>
+
+      <li class="accordion-item close">
+        <div class="accordion-header">
+          <span class="accordion-question">How can I contact you?</span>
+          <button class="btn-accordion-question">
+            <svg
+              class="icon-button-down"
+              width="32"
+              height="32"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="icon-path"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-width="2"
+                d="m22 13-6 6-6-6"
+              />
+            </svg>
+          </button>
+        </div>
+        <p class="accordion-content">
+          You can contact us via email, phone, or through the contact form
+          available on our website.
+        </p>
+      </li>
+
+      <li class="accordion-item close">
+        <div class="accordion-header">
+          <span class="accordion-question"
+            >Do you provide advice or support?</span
+          >
+          <button class="btn-accordion-question">
+            <svg
+              class="icon-button-down"
+              width="32"
+              height="32"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="icon-path"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-width="2"
+                d="m22 13-6 6-6-6"
+              />
+            </svg>
+          </button>
+        </div>
+        <p class="accordion-content">
+          Yes, we provide full consulting and technical support throughout the
+          project development and beyond if needed.
+        </p>
+      </li>
+
+      <li class="accordion-item close">
+        <div class="accordion-header">
+          <span class="accordion-question"
+            >What does the process of developing a software product look like
+            from idea to implementation?</span
+          >
+          <button class="btn-accordion-question">
+            <svg
+              class="icon-button-down"
+              width="32"
+              height="32"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="icon-path"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-width="2"
+                d="m22 13-6 6-6-6"
+              />
+            </svg>
+          </button>
+        </div>
+        <p class="accordion-content">
+          It includes ideation, requirement gathering, planning, design,
+          development, testing, and finally deployment and maintenance.
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="reviews-section" id="reviews">
+  <div class="container">
+    <h2 class="reviews-title">Reviews</h2>
+
+    <div class="reviews-swiper swiper" tabindex="0">
+      <ul class="reviews-list swiper-wrapper" id="reviews-list">
+        <!-- Відгуки будуть тут додані JS -->
+      </ul>
+
+      <div class="reviews-buttons">
+        <button
+          type="button"
+          class="reviews-button-prev swiper-button-prev"
+          tabindex="0"
+          aria-label="Previous review"
+        >
+          <svg class="reviews-icon" width="24" height="24">
+            <use href="/js_115_maxymus101/assets/icons-Cd6RWSuI.svg#icon-arrow-left"></use>
+          </svg>
+        </button>
+
+        <button
+          type="button"
+          class="reviews-button-next swiper-button-next"
+          tabindex="0"
+          aria-label="Next review"
+        >
+          <svg class="reviews-icon" width="24" height="24">
+            <use href="/js_115_maxymus101/assets/icons-Cd6RWSuI.svg#icon-arrow-right"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <section class="work-together" id="work-together-footer">
+    <div class="work-together-block container">
+        <h2 class="work-together-title"><span class="work-span">Let’s</span> work together</h2>
+        <div class="work-tgthr-img-bg-block">
+            <img src="/js_115_maxymus101/assets/decorbg4-DSRsW79Q.png" srcset="/js_115_maxymus101/assets/decorbg-DgsEbLi5.png 768w, /js_115_maxymus101/assets/decorbg4-DSRsW79Q.png 1280w"
+                sizes="(max-width: 1279px) 768px, 1280px" alt="Приклад адаптивного зображення"
+                class="work-tgthr-img-bg" />
+
+        </div>
+        <div class="work-together-mainblock">
+            <div class="work-together-textblock">
+                <div class="work-together-contact-textblock">
+                    <p class="work-together-parag">Contact me to transform your
+                        ideas into exceptional solutions.</p>
+                    <address class="work-together-contact-list">
+                        <div class="contact-item">
+                            <svg class="work-contact-list-icon">
+                                <use href="/js_115_maxymus101/assets/icons-Cd6RWSuI.svg#icon-phone"></use>
+                            </svg>
+                            <a class="work-together-contact-list-item" href="tel:380904567890">+38 090 456 78 90</a>
+                        </div>
+
+                        <div class="contact-item">
+                            <svg class="work-contact-list-icon">
+                                <use href="/js_115_maxymus101/assets/icons-Cd6RWSuI.svg#icon-mail"></use>
+                            </svg>
+                            <a class="work-together-contact-list-item"
+                                href="mailto:lloydjefferson@gmail.com">lloydjefferson@gmail.com</a>
+                        </div>
+
+                        <div class="contact-item">
+                            <svg class="work-contact-list-icon">
+                                <use href="/js_115_maxymus101/assets/icons-Cd6RWSuI.svg#icon-map"></use>
+                            </svg>
+                            <a class="work-together-contact-list-item" href="https://www.google.com/maps/place/..."
+                                target="_blank">
+                                USA, New York
+                            </a>
+                        </div>
+                    </address>
+                </div>
+            </div>
+            <form class="work-together-form">
+                <label>Invalid email</label>
+                <input class="work-together-form-input" type="email" name="email"
+                    pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$" placeholder="Your email*" required>
+
+                <textarea class="work-together-form-message" placeholder="Message"></textarea>
+                <button type="submit" class="work-together-form-btn">SEND MESSAGE</button>
+            </form>
+        </div>
+    </div>
+</section>
+<section class="footer ">
+    <div class="footer-block container">
+        <div class="footer-main-block">
+            <a class="footer-company-logo" href="index.html"><span class="footer-span">Lloyd</span>Jefferson.</a>
+            <ul class="footer-socials">
+                <li class="footer-socials-item">
+                    <a href="https://www.instagram.com/goitclub/" class="footer-socials-item-link"
+                        target="_blank">Instagram</a>
+                </li>
+                <li class="footer-socials-item">
+                    <a href="https://www.facebook.com/goITclub/" class="footer-socials-item-link"
+                        target="_blank">Facebook</a>
+                </li>
+                <li class="footer-socials-item">
+                    <a href="https://www.linkedin.com/school/goit-start-your-career-in-it"
+                        class="footer-socials-item-link" target="_blank">Linkedin</a>
+                </li>
+                <li class="footer-socials-item">
+                    <a href="https://github.com/maxymus101/JS-team-project-g14" class="footer-socials-item-link"
+                        target="_blank">GitHub</a>
+                </li>
+            </ul>
+        </div>
+        <p class="footer-additional">@ Copyright 2024. Made by LloydJefferson</p>
+    </div>
+</section>
+    <!-- MODAL -->
+<div class="backdrop hidden" id="modalBackdrop">
+    <div class="modal" id="modalWindow">
+      <button class="close-btn" id="closeModalBtn">
+        <svg class="modal-icon" width="24" height="24">
+            <use href="/js_115_maxymus101/assets/icons-Cd6RWSuI.svg#icon-close"></use>
+          </svg>
+
+      </button>
+      <h2 class="modal-title">THANK YOU FOR YOUR INTEREST IN COOPERATION!</h2>
+      <p class="modal-description">
+        The manager will contact you shortly to discuss further details and opportunities for cooperation. Please stay in touch.
+      </p>
+    </div>
+  </div>
+  
+
+</body>
+
+</html>
